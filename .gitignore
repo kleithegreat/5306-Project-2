@@ -1,0 +1,19 @@
+# Raw downloads: never modified once written. trends/ is small and cannot be
+# re-downloaded identically (Trends re-samples), so it IS committed.
+data/raw/fred/
+data/raw/alfred/
+data/raw/reddit/
+data/*.log
+
+# data/processed/panel.csv IS committed: it is everything the analysis reads.
+
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+
+__pycache__/
